@@ -8,7 +8,9 @@ body {
   padding: 0 !important;
   background-color: rgb(33, 37, 41) !important;
 }
-
+.text-light{
+  color: white !important;
+}
 .font-esthetic {
   font-family: "Sacramento", cursive !important;
   color: #ffffff !important;
@@ -60,19 +62,16 @@ body {
   .ornamen-img {
     visibility: hidden;
   }
-  .img-gunungan-top {
-    width: 40%;
+   .img-gunungan-top {
+    width: 60%;
   }
-  .img-gunungan-top2 {
-    width: 40%;
-    right: 0%;
-    position: absolute;
-  }
+
   .img-top-gunungan{
     top:30%;
+    /* overflow: hidden; */
     overflow-x: hidden;
-    left: 0 !important;
-  }
+     left: 0 !important;
+  } 
   .ornamen-2{
     width: 30%;
     position: absolute;
