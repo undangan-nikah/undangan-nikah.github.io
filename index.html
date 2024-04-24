@@ -1315,19 +1315,24 @@
       crossorigin="anonymous"
     ></script>
 
-    
     <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const name = urlParams.get("to");
+      if (name) {
+        $('#form-name').val(name)
+      }
       $(window).scroll(function () {
         if ($(".undangan-top").offset().top > $(window).scrollTop()) {
           //do something
-          console.log("object :>> ", "masuk");
+          // console.log("object :>> ", "masuk");
           $(".ornamen-2").show();
           $(".home").hide();
         } else if ($(".mouse-animation").offset().top > $(window).scrollTop()) {
           $(".img-gunungan-top5").hide();
         } else {
           //do something else
-          console.log("object :>> ", "keluar");
+          // console.log("object :>> ", "keluar");
           $(".ornamen-2").hide();
           $(".home").show();
           $(".img-gunungan-top5").show();
