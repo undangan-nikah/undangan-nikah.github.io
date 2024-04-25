@@ -11,6 +11,9 @@ body {
 .text-light{
   color: white !important;
 }
+p{
+  color: white !important;
+}
 .font-esthetic {
   font-family: "Sacramento", cursive !important;
   color: #ffffff !important;
