@@ -8,10 +8,10 @@ body {
   padding: 0 !important;
   background-color: rgb(33, 37, 41) !important;
 }
-.text-light{
+.text-light {
   color: white !important;
 }
-p{
+p {
   color: white !important;
 }
 .font-esthetic {
@@ -45,6 +45,20 @@ p{
   right: 2vh !important;
   z-index: 1055 !important;
 }
+.duduk {
+  background-image: url("../assets/images/duduk-2.svg");
+  filter: grayscale(80%);
+  background-size: 10%;
+  overflow-x: hidden;
+}
+#tanggal{
+  background-image: url('../assets/images/berdiri-haddapan.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35%;
+  overflow: hidden;
+
+}
 /* @media screen and (min-width: 992px) {
   .loading-page {
     position: fixed;
@@ -65,23 +79,37 @@ p{
   .ornamen-img {
     visibility: hidden;
   }
-   .img-gunungan-top {
+  .img-gunungan-top {
     width: 60%;
   }
 
-  .img-top-gunungan{
-    top:30%;
+  .img-top-gunungan {
+    top: 30%;
     /* overflow: hidden; */
     overflow-x: hidden;
-     left: 0 !important;
-  } 
-  .ornamen-2{
+    left: 0 !important;
+  }
+  .ornamen-2 {
     width: 30%;
     position: absolute;
     top: 1.5%;
   }
-}
+  .duduk{
+    background-image: url("../assets/images/duduk-2.svg");
+    filter: grayscale(80%);
+    background-size: 36%;
+  overflow-x: hidden;
 
+  }
+  #tanggal{
+    background-image: url('../assets/images/berdiri-haddapan.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+  overflow-x: hidden;
+
+  }
+}
 
 .loading-page {
   position: fixed;
