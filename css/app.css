@@ -46,13 +46,13 @@ p {
   z-index: 1055 !important;
 }
 .duduk {
-  background-image: url("../assets/images/duduk-2.svg");
+  background-image: url("../assets/images/duduk-2.png");
   filter: grayscale(80%);
   background-size: 10%;
   overflow-x: hidden;
 }
 #tanggal{
-  background-image: url('../assets/images/berdiri-haddapan.svg');
+  background-image: url('../assets/images/berdiri-haddapan.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 35%;
@@ -95,14 +95,14 @@ p {
     top: 1.5%;
   }
   .duduk{
-    background-image: url("../assets/images/duduk-2.svg");
+    background-image: url("../assets/images/duduk-2.png");
     filter: grayscale(80%);
     background-size: 36%;
   overflow-x: hidden;
 
   }
   #tanggal{
-    background-image: url('../assets/images/berdiri-haddapan.svg');
+    background-image: url('../assets/images/berdiri-haddapan.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 130%;
