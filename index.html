@@ -772,7 +772,7 @@
             >
               Galeri
             </h1>
-            <div class="container wall">
+            <div class="container wall" style="overflow-x: scroll;">
               <img
                 src="./assets/images/3.png"
                 class="img-1"
@@ -822,7 +822,7 @@
                 onclick="util.modal(this)"
               /><img
                 src="./assets/images/galeri-10.png"
-                class="desktop-gallery"
+                class="desktop-gallery1"
                 class="img-10"
                 onclick="util.modal(this)"
               />
@@ -1275,10 +1275,10 @@
       if (name) {
         $("#form-name").val(name);
       }
-      if ($(window).width() > 600) {
-        $(".desktop-gallery").show();
+     if ($(window).width() > 600) {
+       $(".desktop-gallery1").show();
       } else {
-        $(".desktop-gallery").hide();
+        $(".desktop-gallery1").hide();
       }
       $(window).scroll(function () {
         if ($(".undangan-top").offset().top > $(window).scrollTop()) {
